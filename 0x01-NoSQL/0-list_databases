@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Connect to MongoDB
+mongo --quiet <<EOF
+show dbs
+EOF
